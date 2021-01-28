@@ -6,30 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Smokum&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="tabs.css">
     <title>Uncle John's Smokehouse</title>
 </head>
 <body>
-    <nav class="navContainer"></nav>
-        <img class="logo" src="" alt="">
-    <img class="banner" src="" alt="">
-    <div class="cardContainer">
-        <div class="card1"></div>
-        <div class="card2"></div>
-        <div class="card3"></div>
-    </div>
-    <div tabContainer>
-        <div class="story"></div>
-        <div class="menu"></div>
-        <div class="reservations"></div>
-    </div>
-    <div class="photos">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-    </div>
-    <footer></footer>
+    
+    <div class="tabset">
+        <!-- Tab 1 -->
+        <input type="radio" name="tabset" id="tab1" aria-controls="story" checked>
+        <label for="tab1">Our Story</label>
+        <!-- Tab 2 -->
+        <input type="radio" name="tabset" id="tab2">
+        <label for="tab2"> Menu </label>
+        <!-- Tab 3 -->
+        <input type="radio" name="tabset" id="tab3">
+        <label for="tab3">Catering</label>
+        
+        <div class="tab-panels">
+          <section id="menu" class="tab-panel">
+            <h2>Our Story</h2>
+            <p>About Uncle John</p>
+        
+        </section>
+          <section id="Menu" class="tab-panel">
+            <h2>Menu</h2>
+            <p>we have food</p>
+          </section>
+          <section id="dunkles" class="tab-panel">
+            <h2>Catering</h2>
+            <p>So you like to party, eh?</p>
+          </section>
+        </div>
+        
+      </div>
+
     <script src="main.js"></script>
 </body>
 </html>
