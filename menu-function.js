@@ -1,6 +1,8 @@
+// Querys For Inserting
 const appQuery = document.querySelector("#apps-menu")
 const entQuery = document.querySelector("#entrees-menu")
 const desQuery = document.querySelector("#desserts-menu")
+
 fetch('https://obscure-tundra-54269.herokuapp.com/casual-dining')
 .then((resp) => resp.json())
 .then((data) => {
