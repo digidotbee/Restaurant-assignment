@@ -1,40 +1,85 @@
 
 .cardContainer {
+
+    margin: 20px;
+    height: 350px;
+    -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 0px 0px 15px 10px rgba(48,34,13,0); 
+    box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 0px 0px 15px 10px rgba(48,34,13,0);
+    border-radius: 10px;
+    background-image: linear-gradient(0deg, rgba(88, 51, 30, 0.3) 100%, rgba(84,49,11,.3) 100%),
+    url(Assets_BG_IMGS/wooden-Bg.jpg);
+    background-size: contain;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    text-align: center;
+    color: rgb(233, 230, 230);
 }
 
-.card1 {
+.cardContainer h3 {
 
+    margin: 3px;
+    text-transform: capitalize;
+}
+
+.card1 , .card3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-shadow: 1px 1px 7px rgba(253,249,249,0.52);
     font-family: 'Rock Salt', cursive;
-    color: seashell;
     background-image: linear-gradient(0deg, rgba(0,0,0,.5) 100%, rgba(84,49,11,.6) 100%),
     url(Assets_BG_IMGS/Blackboard-Bg.jpg);
     background-size: cover;
+    -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 0px 0px 15px 10px rgba(48,34,13,0); 
+    box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 0px 0px 15px 10px rgba(48,34,13,0);
     border-radius: 12px;
-    width: 30%;
-    height: 200px;
+    width: 32%;
+    height: 300px;
+    margin-left: 4px;
 }
 .card2 {
 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-shadow: 1px 1px 7px rgba(253,249,249,0.52);
     font-family: 'Rock Salt', cursive;;
     color: seashell;
     background-image: linear-gradient(0deg, rgba(17, 11, 6, 0.5) 100%, rgba(84,49,11,.6) 100%),
     url(Assets_BG_IMGS/Blackboard-Bg.jpg);
     background-size: cover;
+    -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 0px 0px 15px 10px rgba(48,34,13,0); 
+    box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 0px 0px 15px 10px rgba(48,34,13,0);
     border-radius: 12px;
     width: 30%;
-    height: 200px;
+    height: 300px;
+    padding: 20px;
 }
-.card3 {
 
-    font-family: 'Rock Salt', cursive;;
-    color: seashell;
-    background-image: linear-gradient(0deg, rgba(0,0,0,.5) 100%, rgba(84,49,11,.6) 100%),
-    url(Assets_BG_IMGS/Blackboard-Bg.jpg);
-    background-size: cover;
-    border-radius: 12px;
-    width: 30%;
-    height: 200px;
+/* start styles to ratate pictures of specials 90 degrees.  Comment out if not necessary */
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.card3 {
+    margin-right: 5px;
+}
+
+iframe {
+    margin-bottom: 25px;
+}
+
+
+/* need to find a better method for clipping these pictures.  Using overflow hidden for now. */
+.card2 > img {
+    max-width: 85%;
+    height: 85%;
+    overflow: hidden;
 }
