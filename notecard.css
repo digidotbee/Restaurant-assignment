@@ -1,0 +1,40 @@
+
+.cardContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card1 {
+
+    font-family: 'Rock Salt', cursive;
+    color: seashell;
+    background-image: linear-gradient(0deg, rgba(0,0,0,.5) 100%, rgba(84,49,11,.6) 100%),
+    url(Assets_BG_IMGS/Blackboard-Bg.jpg);
+    background-size: cover;
+    border-radius: 12px;
+    width: 30%;
+    height: 200px;
+}
+.card2 {
+
+    font-family: 'Rock Salt', cursive;;
+    color: seashell;
+    background-image: linear-gradient(0deg, rgba(17, 11, 6, 0.5) 100%, rgba(84,49,11,.6) 100%),
+    url(Assets_BG_IMGS/Blackboard-Bg.jpg);
+    background-size: cover;
+    border-radius: 12px;
+    width: 30%;
+    height: 200px;
+}
+.card3 {
+
+    font-family: 'Rock Salt', cursive;;
+    color: seashell;
+    background-image: linear-gradient(0deg, rgba(0,0,0,.5) 100%, rgba(84,49,11,.6) 100%),
+    url(Assets_BG_IMGS/Blackboard-Bg.jpg);
+    background-size: cover;
+    border-radius: 12px;
+    width: 30%;
+    height: 200px;
+}

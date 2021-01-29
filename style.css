@@ -4,48 +4,14 @@
     box-sizing: border-box;
 }
 
-html {
-    background: url(Assets_BG_IMGS/SmokinJohns-Bg.jpg) no-repeat center center fixed; 
+body {
+    background-image: 
+        linear-gradient(0deg, rgba(55,33,18,.5) 100%, rgba(84,49,11,.6) 100%),
+        url(Assets_BG_IMGS/SmokinJohns-Bg.jpg); 
+    background-repeat: no-repeat center center fixed; 
+    background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
-
-.cardContainer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.card1 {
-
-    font-family: monospace;
-    justify-content: center;
-    color: seashell;
-    background-image: url(Assets_BG_IMGS/Blackboard-Bg.jpg);
-    background-size: cover;
-    border-radius: 12px;
-    width: 30%;
-    height: 200px;
-}
-.card2 {
-
-    font-family: monospace;
-    color: seashell;
-    background-image: url(Assets_BG_IMGS/Blackboard-Bg.jpg);
-    background-size: cover;
-    border-radius: 12px;
-    width: 30%;
-    height: 200px;
-}
-.card3 {
-
-    font-family: monospace;
-    color: seashell;
-    background-image: url(Assets_BG_IMGS/Blackboard-Bg.jpg);
-    background-size: cover;
-    border-radius: 12px;
-    width: 30%;
-    height: 200px;
 }
