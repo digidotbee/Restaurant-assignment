@@ -12,8 +12,8 @@
 .logo {
     grid-column-start: 1;
     grid-row-start: 1;
-
 }
+
 
 .rotated {
         -webkit-transform:rotate(-10deg);
@@ -25,6 +25,7 @@
 
 .fa {
     font-size: 50px;
+    margin-bottom: 10px;
     color: rgb(255, 183, 0);
     text-shadow: 2px 2px 4px #000000;
     grid-column-start: 5;
@@ -37,6 +38,8 @@
     margin-right: auto; 
     margin-top: 10px;
     border: 2px solid black;
+    box-shadow: 6px 8px 11px 1px rgba(0,0,0,0.75);
+    border-radius: 10px;
 }
 
 .slogan {
