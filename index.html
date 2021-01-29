@@ -2,16 +2,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+   
+   
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Smokum&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&family=Rock+Salt&family=Smokum&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="notecard.css">
     <link rel="stylesheet" href="tabs.css">
     <title>Uncle John's Smokehouse</title>
 </head>
 <body>
     
-    <div class="tabset">
+    
+    <nav class="navContainer"></nav>
+        <img class="logo" src="" alt="">
+    <img class="banner" src="" alt="">
+    <div class="cardContainer">
+        <div class="card1">
+            <h3>Latest News</h3>
+            <h6>Come on out and see us tomorrow</h6>
+            <h3>11am-5pm</h3>
+            <h6>at our new location:</h6>
+            <h6> 285 Airport Rd in New Castle!</h6>
+            <h3>Come git ya some!</h3>
+        </div>
+        <div class="card2">
+            <h3><u>Today's</u>  $10  <u>Special:</u></h3>
+            <img src="Assets_BG_IMGS/Food-3.jpeg" alt="mouthwatering_plate_bbq_pork" class="rotate90">
+            <h6><u>Note:</u> We <u> do not</u> sell bananas.  We will never sell bananas.  The ironic nature of the banana is downright offensive to us.</h6>
+        </div>
+        <div class="card3"><h3>Our Truck's Location</h3>
+            <iframe width="200" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=244&amp;height=200&amp;hl=en&amp;q=285%20Airport%20Rd.%20New%20Castle+(Uncle%20John's%20Smokehouse)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+        </div>
+    </div>
+    <div class="tabContainer">
+        <div class="story"></div>
+        <div class="menu"></div>
+        <div class="reservations"></div>
+    </div>
+
+<div class="tabset">
         <!-- Tab 1 -->
         <input type="radio" name="tabset" id="tab1" aria-controls="story" checked>
         <label for="tab1">Our Story</label>
@@ -40,6 +73,18 @@
         
       </div>
 
+    <div class="photos">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+    </div>
+
+
+
+    <footer></footer>
     <script src="main.js"></script>
+    <script src="notecard.js"></script>
 </body>
 </html>
