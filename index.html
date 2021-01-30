@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="notecard.css">
     <link rel="stylesheet" href="tabs.css">
+    <link rel="stylesheet" href="form.css">
     <title>Uncle John's Smokehouse</title>
 </head>
 <body>
@@ -49,39 +50,50 @@
             <iframe width="200" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=244&amp;height=200&amp;hl=en&amp;q=285%20Airport%20Rd.%20New%20Castle+(Uncle%20John's%20Smokehouse)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
         </div>
     </div>
-<!-- Dottie test -->
-<div class="tabContainer">
-    <div class="tabset">
-            <!-- Tab 1 -->
-            <input type="radio" name="tabset" id="tab1" aria-controls="story" checked>
-            <label for="tab1">Our Story</label>
-            <!-- Tab 2 -->
-            <input type="radio" name="tabset" id="tab2">
-            <label for="tab2"> Menu </label>
-            <!-- Tab 3 -->
-            <input type="radio" name="tabset" id="tab3">
-            <label for="tab3">Catering</label>
-            
-            <div class="tab-panels">
-                <section id="story-tab" class="tab-panel">
-                    <h2>Our Story</h2>
-                    <div class="story-content"></div>
-                </section>
-                <section class="tab-panel">
-                    <h2>Appetizers</h2>
-                    <div id="apps-menu"> </div>
-                    <h2>Entrees</h2>
-                    <div id="entrees-menu"> </div>
-                    <h2>Desserts</h2>
-                    <div id="desserts-menu"> </div>
-                </section>
-                <section id="catering-tab" class="tab-panel">
-                    <h2>Catering</h2>
-                    <p>So you like to party, eh?</p>
-                </section>
-            </div>
-    </div> 
-</div>
+    <div class="tabContainer">
+        <div class="story"></div>
+        <div class="menu"></div>
+        <div class="reservations"></div>
+    </div>
+
+<div class="tabset">
+        <!-- Tab 1 -->
+        <input type="radio" name="tabset" id="tab1" aria-controls="story" checked>
+        <label for="tab1">Our Story</label>
+        <!-- Tab 2 -->
+        <input type="radio" name="tabset" id="tab2">
+        <label for="tab2"> Menu </label>
+        <!-- Tab 3 -->
+        <input type="radio" name="tabset" id="tab3">
+        <label for="tab3">Catering</label>
+        
+        <div class="tab-panels">
+        <section id="story-tab" class="tab-panel">
+            <h2>Our Story</h2>
+            <div class="story-content"></div>
+          </section>
+          <section class="tab-panel">
+            <h2>Appetizers</h2>
+            <div id="apps-menu"> </div>
+            <h2>Entrees</h2>
+            <div id="entrees-menu"> </div>
+            <h2>Desserts</h2>
+            <div id="desserts-menu"> </div>
+          </section>
+          <section id="catering-tab" class="tab-panel">
+            <h2>Catering</h2>
+            <form action="/action_page.php" target="_blank">
+                <p><input class="form-stuff"  type="text" placeholder="Name" ></p>
+                <p><input class="form-stuff"  type="text" placeholder="Phone Number"></p>
+                <p><input class="form-stuff" type="number" placeholder="How many people" ></p>
+                <p><input class="form-stuff" type="datetime-local" placeholder="Date and time" required name="date" value="2017-11-16T20:00"></p>
+                <p><textarea id="catering" placeholder="Any special requests or things we should know?" rows="5" cols="33"/></textarea></p>
+               <div class="button_cont" text-align="center"><a class="example_a" href="" target="_blank" >Submit</a></div>
+              </form>
+          </section>
+        </div>
+        
+      </div>
     <div class="photos">
         <img src="" alt="">
         <img src="" alt="">
