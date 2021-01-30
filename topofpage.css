@@ -4,13 +4,16 @@
     grid-template-rows: 100px;
     width: 1400px;
     justify-items: center;
-    background-color: #52383E
+    background-image: url("Assets_BG_IMGS/header-bg.jpg");
+    background-repeat: repeat-x;
+
 }
+
 .logo {
     grid-column-start: 1;
     grid-row-start: 1;
-
 }
+
 
 .rotated {
         -webkit-transform:rotate(-10deg);
@@ -22,6 +25,7 @@
 
 .fa {
     font-size: 50px;
+    margin-bottom: 10px;
     color: rgb(255, 183, 0);
     text-shadow: 2px 2px 4px #000000;
     grid-column-start: 5;
@@ -33,19 +37,21 @@
     margin-left: auto;
     margin-right: auto; 
     margin-top: 10px;
-    border: 1px solid gray;
+    border: 2px solid black;
+    box-shadow: 6px 8px 11px 1px rgba(0,0,0,0.75);
+    border-radius: 10px;
 }
 
 .slogan {
-    font-family: 'Smokum';
-    font-size: 100px;
+    font-family: "Rock Salt", cursive;
+    font-size: 60px;
     font-style: italic;
     text-shadow: 2px 2px 4px #000000;
     color: rgb(255, 183, 0);
     /* color: white; */
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
-    margin-top: -250px;
+    margin-top: -210px;
     margin-right: 260px;
     text-align: right;
     line-height: 80px;
