@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="notecard.css">
     <link rel="stylesheet" href="tabs.css">
+    <link rel="stylesheet" href="form.css">
     <title>Uncle John's Smokehouse</title>
 </head>
 <body>
@@ -81,7 +82,14 @@
           </section>
           <section id="catering-tab" class="tab-panel">
             <h2>Catering</h2>
-            <p>So you like to party, eh?</p>
+            <form action="/action_page.php" target="_blank">
+                <p><input class="form-stuff"  type="text" placeholder="Name" ></p>
+                <p><input class="form-stuff"  type="text" placeholder="Phone Number"></p>
+                <p><input class="form-stuff" type="number" placeholder="How many people" ></p>
+                <p><input class="form-stuff" type="datetime-local" placeholder="Date and time" required name="date" value="2017-11-16T20:00"></p>
+                <p><textarea id="catering" placeholder="Any special requests or things we should know?" rows="5" cols="33"/></textarea></p>
+               <div class="button_cont" align="center"><a class="example_a" href="" target="_blank" >Submit</a></div>
+              </form>
           </section>
         </div>
         
