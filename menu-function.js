@@ -6,10 +6,10 @@ const desQuery = document.querySelector("#desserts-menu")
 fetch('https://obscure-tundra-54269.herokuapp.com/casual-dining')
 .then((resp) => resp.json())
 .then((data) => {
-    console.log(data)
+    // console.log(data)
 // App Menu Function
     const appMenu = data.appetizers.map(function (item) {
-        console.log(item.name)
+        // console.log(item.name)
        return `     
                     <h2>${item.name}</h2>
                     <p>${item.description}</p>
@@ -19,7 +19,7 @@ fetch('https://obscure-tundra-54269.herokuapp.com/casual-dining')
     })
 // Entree Menu Function
     const entMenu = data.entrees.map(function (item) {
-    console.log(item.name)
+    // console.log(item.name)
    return `     
                 <h2>${item.name}</h2>
                 <p>${item.description}</p>
@@ -29,7 +29,7 @@ fetch('https://obscure-tundra-54269.herokuapp.com/casual-dining')
     })
 // Dessert Menu Function
     const desMenu = data.entrees.map(function (item) {
-        console.log(item.name)
+        // console.log(item.name)
        return `     
                     <h2>${item.name}</h2>
                     <p>${item.description}</p>

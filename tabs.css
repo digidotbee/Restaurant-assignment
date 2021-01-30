@@ -16,14 +16,14 @@
     display: block;
   }
   
- 
-  
+/*  
   body {
     font: 16px/1.5em "Overpass", "Open Sans", Helvetica, sans-serif;
     color: #000;
     font-weight: 300;
   }
-  
+   */
+   
   .tabset > label {
     position: relative;
     display: inline-block;
