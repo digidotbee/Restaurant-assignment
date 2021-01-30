@@ -50,17 +50,5 @@ fetch('https://obscure-tundra-54269.herokuapp.com/casual-dining')
             desQuery.innerHTML = desMenu
 })
 
-// const entQuery = document.querySelector("#entrees-menu")
-// fetch('https://obscure-tundra-54269.herokuapp.com/casual-dining')
-// .then((resp) => resp.json())
-// .then((data) => {
-// const entMenu = data.entrees.map(function (item) {
-//     console.log(item.name)
-//    return `     
-//                 <h2>${item.name}</h2>
-//                 <p>${item.description}</p>
-//                 <p>$${item.price}</p>`
-// })
-// const entString = entMenu.join('')
-// entQuery.innerHTML = entMenu
-// })
+
+// Extras!  Get the logos for gluten free.
