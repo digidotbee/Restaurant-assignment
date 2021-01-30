@@ -1,3 +1,36 @@
+/* Styling for tabs Start */
+
+.tabContainer {
+  list-style: none;
+  margin: 20px;
+  height: max-content;
+  -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 0px 0px 15px 10px rgba(48,34,13,0); 
+  box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 0px 0px 15px 10px rgba(48,34,13,0);
+  border-radius: 10px;
+  background-image: linear-gradient(0deg, rgba(88, 51, 30, 0.3) 100%, rgba(84,49,11,.3) 100%),
+  url(Assets_BG_IMGS/wooden-Bg.jpg);
+  background-size: contain;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.tabset {
+
+  width: 95%;
+  height: 95%;
+  font-family: 'Rock Salt', cursive;
+  color: rgb(233, 230, 230);
+  text-shadow: 1px 1px 7px rgba(253,249,249,0.52);
+  background-image: linear-gradient(0deg, rgba(0,0,0,.5) 100%, rgba(84,49,11,.6) 100%),
+  url(Assets_BG_IMGS/Blackboard-Bg.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  margin: 20px;
+
+}
 .tabset > input[type="radio"] {
     position: absolute;
     left: -200vw;
@@ -17,13 +50,13 @@
   }
   
  
-  
+/*   
   body {
     font: 16px/1.5em "Overpass", "Open Sans", Helvetica, sans-serif;
     color: #000;
     font-weight: 300;
   }
-  
+   */
   .tabset > label {
     position: relative;
     display: inline-block;
