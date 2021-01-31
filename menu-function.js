@@ -7,6 +7,7 @@ fetch('https://obscure-tundra-54269.herokuapp.com/casual-dining')
 .then((resp) => resp.json())
 .then((data) => {
     console.log(data)
+    
 // App Menu Function
     const appMenu = data.appetizers.map(function (item) {
         console.log(item.name)
@@ -16,7 +17,9 @@ fetch('https://obscure-tundra-54269.herokuapp.com/casual-dining')
                     <p>$${item.price}</p>`
 
     
-    })
+    }).join('')
+    appQuery.innerHTML = appMenu
+
 // Entree Menu Function
     const entMenu = data.entrees.map(function (item) {
     console.log(item.name)
@@ -26,7 +29,9 @@ fetch('https://obscure-tundra-54269.herokuapp.com/casual-dining')
                 <p>$${item.price}</p>`
                 
 
-    })
+    }).join('')
+    entQuery.innerHTML = entMenu
+
 // Dessert Menu Function
     const desMenu = data.entrees.map(function (item) {
         console.log(item.name)
@@ -36,18 +41,19 @@ fetch('https://obscure-tundra-54269.herokuapp.com/casual-dining')
                     <p>$${item.price}</p>`
                     
     
-     })
+     }).join('')
+     desQuery.innerHTML = desMenu
 
 // These insert the stuffs into the html
 
-    const menuString = appMenu.join('')
-            appQuery.innerHTML = appMenu
+    // const menuString = appMenu.join('')
+    //         appQuery.innerHTML = appMenu
 
-    const entString = entMenu.join('')
-    entQuery.innerHTML = entMenu
+    // const entString = entMenu.join('')
+    // entQuery.innerHTML = entMenu
 
-    const desString = desMenu.join('')
-            desQuery.innerHTML = desMenu
+    // const desString = desMenu.join('')
+    //         desQuery.innerHTML = desMenu
 })
 
 // const entQuery = document.querySelector("#entrees-menu")
