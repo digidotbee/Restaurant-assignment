@@ -1,4 +1,4 @@
-const storyTime = `Stepping up to order at Uncle John's Smokehouse Foodtruck is like
+const storyTime = `<p>Stepping up to order at Uncle John's Smokehouse Foodtruck is like
 stepping into the technicolor mind of Uncle John himself.  The Northern Delaware 
 native who has infused his entire being 
 into the craft of whole-hog barbecue. 
@@ -10,8 +10,7 @@ Uncle John incorporates regional delights into the food truck's repertoire inclu
 Scrapple hash and chicken bog in addition to his Eastern North Delaware 
 style whole hog barbecue with its vinegary red-pepper flecked mop, 
 while his farm fresh seasonal sides utilize the properties of wood smoke, fire, 
-and hog fat as law. Pair that with a killer Scotch menu and the musical stylings of friend and musician, Stefanie Seskin, 
- and you’ve got a food destination of the nth degree.`
+and hog fat as law. Pair that with a killer Scotch menu and the musical stylings of friends and musicians and you’ve got a food destination of the nth degree.</p>`
 
  
 document.querySelector(".story-content").innerHTML = storyTime

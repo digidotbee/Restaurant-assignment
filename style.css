@@ -16,3 +16,7 @@ body {
     background-size: cover;
 }
 
+.story-content {
+    padding: 30px;
+    text-indent: 40px;
+}

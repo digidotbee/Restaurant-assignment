@@ -1,7 +1,12 @@
 .form-stuff{
     border: none;
+    height: 30px;
+    width: 100%;
 }
+
 .example_a {
+
+    width: 100%;
     color: #fff !important;
     text-transform: uppercase;
     text-decoration: none;
@@ -13,15 +18,44 @@
     transition: all 0.4s ease 0s;
     }
 
-    .example_a:hover {
-        background: #434343;
-        letter-spacing: 1px;
-        -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-        -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-        box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
-        transition: all 0.4s ease 0s;
-        }
+.example_a:hover {
+    background: #434343;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+}
 
-        #catering{
-            margin: 10px 0px;
-        }
+.catering img{
+    position: relative;
+    right: -15px;
+    top: -40px;
+    clip-path: inset(20% 0 0 0);
+    width: 85%;
+}
+
+.catering {
+    display: flex;
+    justify-content: space-between;
+}
+ 
+  /* CATERING PANEL STYLES */
+
+
+#catering {
+    margin-top: 3px;
+    width: 100%;
+}
+
+.catering-contain {
+    display: flex;
+    justify-content: flex-start;
+    width: 90%;
+    align-items: center;
+}
+
+
+
+
+  
