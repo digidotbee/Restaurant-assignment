@@ -67,7 +67,6 @@
     right: -20px;
     display: inline-block;
     padding: 15px 15px 15px 15px;
-    border: 1px solid transparent;
     border-bottom: 0;
     cursor: pointer;
     font-weight: 600;
@@ -98,8 +97,6 @@
   
   /* Start animations here Styling after checked */
   .tabset > input:checked + label {
-    border-color: #ccc;
-    border-bottom: 1px solid #fff;
     margin-bottom: -1px;
   }
   
