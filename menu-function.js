@@ -11,7 +11,7 @@ fetch('https://obscure-tundra-54269.herokuapp.com/casual-dining')
     const appMenu = data.appetizers.map(function (item) {
         console.log(item.name)
        return `     
-                    <h2>${item.name}</h2>
+                    <h1>${item.name}</h1>
                     <p>${item.description}</p>
                     <p>$${item.price}</p>`
 

@@ -1,14 +1,27 @@
+.container {
 
-.cardContainer {
-
+    position: relative;
     margin: 40px;
-    height: 350px;
+    height: max-content;
     -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 0px 0px 15px 10px rgba(48,34,13,0); 
     box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 0px 0px 15px 10px rgba(48,34,13,0);
     border-radius: 10px;
     background-image: linear-gradient(0deg, rgba(88, 51, 30, 0.3) 100%, rgba(84,49,11,.3) 100%),
     url(Assets_BG_IMGS/wooden-Bg.jpg);
     background-size: contain;
+}
+.cardContainer {
+
+    position: relative;
+    top: 20px;
+    -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 0px 0px 15px 10px rgba(48,34,13,0); 
+    box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 0px 0px 15px 10px rgba(48,34,13,0);
+    border-radius: 10px;
+    background-image: linear-gradient(0deg, rgba(88, 51, 30, 0.3) 100%, rgba(84,49,11,.3) 100%),
+    url(Assets_BG_IMGS/wooden-Bg.jpg);
+    background-size: contain;
+    margin: 20px;
+    height: 350px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -18,7 +31,7 @@
 
 .cardContainer h3 {
 
-    margin: 3px;
+    margin: 5px;
     text-transform: capitalize;
 }
 
@@ -44,7 +57,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    align-items: inherit;
     text-shadow: 1px 1px 7px rgba(253,249,249,0.52);
     font-family: 'Rock Salt', cursive;;
     color: seashell;
@@ -56,7 +69,6 @@
     border-radius: 12px;
     width: 30%;
     height: 300px;
-    padding: 20px;
 }
 
 /* start styles to ratate pictures of specials 90 degrees.  Comment out if not necessary */
