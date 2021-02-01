@@ -10,6 +10,7 @@
     url(Assets_BG_IMGS/wooden-Bg.jpg);
     background-size: contain;
 }
+
 .cardContainer {
 
     position: relative;
@@ -50,8 +51,8 @@
     border-radius: 12px;
     width: 32%;
     height: 300px;
-    margin-left: 4px;
 }
+
 .card2 {
 
     display: flex;
