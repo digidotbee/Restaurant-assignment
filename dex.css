@@ -1,0 +1,15 @@
+.photos {
+  display: flex;
+  width: 80%;
+  /* border: 1px solid blue; */
+  margin: 0 auto;
+  justify-content: space-evenly;
+}
+
+.photo {
+  height: 200px;
+  width: 200px;
+  /* border: 1px solid red; */
+  background-size: contain;
+  background-repeat: no-repeat;
+}
