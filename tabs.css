@@ -100,8 +100,10 @@
     margin-bottom: -1px;
   }
   
-  /* .tab-panel {
-    display: flex;
-    padding: 30px 0;
-  } */
- 
+
+ /* STart spicy allergy styles */
+
+ #spicy span{
+   font-size: 12pt !important;
+
+ }
